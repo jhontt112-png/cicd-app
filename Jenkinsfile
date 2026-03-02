@@ -8,10 +8,10 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-            steps {
-                git 'https://github.com/jhontt112-png/cicd-app.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/jhontt112-png/cicd-app.git'
+    }
+}
 
         stage('Build') {
             steps {

@@ -1,4 +1,4 @@
-package com.devops.cicd_app;
+package com.devops.cicdapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
